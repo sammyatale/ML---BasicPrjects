@@ -1,0 +1,21 @@
+{
+    "project": "Shakespeare Character-Level Text Generator",
+    "experiments": [
+        {
+            "version": "v1",
+            "lstm_units": 128,
+            "epochs": 4,
+            "batch_size": 26,
+            "final_loss": 1.659,
+            "model": "models/shakespearetextgenerator.h5"
+        },
+        {
+            "version": "v2",
+            "lstm_units": 256,
+            "epochs": 8,
+            "batch_size": 64,
+            "final_loss": 1.4293,
+            "model": "models/shakespeare_lstm_v2.keras"
+        }
+    ]
+}
